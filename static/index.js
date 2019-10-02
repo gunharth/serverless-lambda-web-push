@@ -71,15 +71,15 @@ navigator.serviceWorker.ready
     };
 
     document.getElementById('sendToAll').onclick = function () {
-      fetch('./sendToAll', {
-        method: 'post',
+      fetch("./sendToAll", {
+        method: "post",
         headers: {
-          'Content-type': 'application/json'
+          "Content-type": "application/json"
         },
         body: JSON.stringify({
-          payload: 'SEND TEXT TO ALL',
-          delay: 0,
-        }),
+          payload: "I love to travel, but I hate to arrive.",
+          delay: 0
+        })
       });
     };
 
