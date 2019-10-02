@@ -5,8 +5,9 @@ Native browser [Push API](https://developer.mozilla.org/en-US/docs/Web/API/Push_
 [Browser compatibility](https://developer.mozilla.org/en-US/docs/Web/API/Push_API#Browser_compatibility)
 
 ## References
-[Web API (Push Payload) Demo](https://serviceworke.rs/push-payload_demo.html)
-[Progressive Web Apps](https://www.rheinwerk-verlag.de/progressive-web-apps_4707/)
+
+- [Web API Push](https://serviceworke.rs/web-push.html)
+- Book: [Progressive Web Apps](https://www.rheinwerk-verlag.de/progressive-web-apps_4707/)
 
 ## Setup
 
@@ -24,8 +25,8 @@ Native browser [Push API](https://developer.mozilla.org/en-US/docs/Web/API/Push_
 npm i
 serverless deploy
 ```
-- follow the instructions to setup the project
+- follow the CLI instructions to setup the project
 
 ## Demo
 
-his lambda can currently be seen in action here: [DEMO](https://x9hocms7hb.execute-api.eu-central-1.amazonaws.com/dev/index.html)
+follow this link to a [DEMO](https://x9hocms7hb.execute-api.eu-central-1.amazonaws.com/dev/index.html)
