@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#2196f3">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
+    <title>Serverless Framework & SNS Web Push</title>
+    <link rel="shortcut icon" href="https://s3.amazonaws.com/serverless.com/images/serverless-icon-red.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="index.js" defer></script>
+</head>
+
+<body>
+    <noscript>
+        You need to enable JavaScript to run this app.
+    </noscript>
+    <div>
+        <h2>Send notification to this subscription</h2>
+        <input type="text" id="payload">
+        <button id="doIt">Send a notification in 5 seconds</button></br>
+    </div>
+    <div>
+        <h2>Send notification to all subscriptions</h2>
+        <h3>(Open this same URL in many computers to really see it in action)</h3>
+        <button id="sendToAll">Send to all subscribers immediatelly.</button>
+    </div>
+    <br>
+    <div>
+        <h3>Source Code:</h3>
+        <a href="https://github.com/guerrerocarlos/serverless-web-push-notifications">Github</a>
+    </div>
+
+</body>
+
+</html>

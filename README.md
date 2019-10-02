@@ -10,6 +10,7 @@ Native browser [Push API](https://developer.mozilla.org/en-US/docs/Web/API/Push_
 
 ## Setup
 
+- Node.js
 - [Serverless](https://serverless.com) account 
 - [AWS](https://aws.amazon.com) account
 
@@ -20,8 +21,9 @@ Native browser [Push API](https://developer.mozilla.org/en-US/docs/Web/API/Push_
 - Clone this repo and cd into its folder
 - run
 ```
+npm i
 serverless deploy
 '''
-- follow the console notifications to setup AWS credentials
+- follow the instructions to setup the project
 
 ## Demo
