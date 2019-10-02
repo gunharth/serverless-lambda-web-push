@@ -23,7 +23,9 @@ Native browser [Push API](https://developer.mozilla.org/en-US/docs/Web/API/Push_
 ```
 npm i
 serverless deploy
-'''
+```
 - follow the instructions to setup the project
 
 ## Demo
+
+his lambda can currently be seen in action here: [DEMO](https://x9hocms7hb.execute-api.eu-central-1.amazonaws.com/dev/index.html)
