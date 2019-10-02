@@ -54,8 +54,8 @@ navigator.serviceWorker.ready
 
     document.getElementById('doIt').onclick = function () {
       const payload = document.querySelector('#payload').value;
-      const delay = '5'
-      const ttl = '5'
+      const delay = document.querySelector("#delay").value;
+      const ttl = delay;
       fetch('./sendNotification', {
         method: 'post',
         headers: {

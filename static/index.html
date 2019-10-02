@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#2196f3">
     <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
-    <title>Serverless Framework & SNS Web Push</title>
+    <title>Push API & Serverless & Lambda</title>
     <link rel="shortcut icon" href="https://s3.amazonaws.com/serverless.com/images/serverless-icon-red.ico">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -17,22 +16,20 @@
     <noscript>
         You need to enable JavaScript to run this app.
     </noscript>
+    <h1>Push API + Serverless + Lambda</h1>
     <div>
-        <h2>Send notification to this subscription</h2>
-        <input type="text" id="payload">
-        <button id="doIt">Send a notification in 5 seconds</button></br>
-    </div>
-    <div>
-        <h2>Send notification to all subscriptions</h2>
-        <h3>(Open this same URL in many computers to really see it in action)</h3>
-        <button id="sendToAll">Send to all subscribers immediatelly.</button>
+        <h2>1. Send notification to this subscription</h2>
+        Notification payload: <input type="text" id="payload" placeholder="Enter a payload"> <br>
+        Notification delay: <input type="number" id="delay" maxlength="4" size="4" value="5"> seconds <br>
+        <button id="doIt">Send this notification in 5 seconds</button></br>
     </div>
     <br>
     <div>
-        <h3>Source Code:</h3>
-        <a href="https://github.com/guerrerocarlos/serverless-web-push-notifications">Github</a>
+        <h2>2. Send notification to all subscriptions</h2>
+        Open this same URL in many computers to really see it in action <br>
+        <button id="sendToAll">Send to all subscribers immediately</button>
     </div>
+    <br>
 
 </body>
-
 </html>
