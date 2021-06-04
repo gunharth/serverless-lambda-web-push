@@ -7,7 +7,7 @@ Native browser [Push API](https://developer.mozilla.org/en-US/docs/Web/API/Push_
 ## References
 
 - Based on code from [Web API Push](https://serviceworke.rs/web-push.html)
-- Book: [Progressive Web Apps](https://www.rheinwerk-verlag.de/progressive-web-apps_4707/), German only ¯\\_(ツ)_/¯
+- Book: [Progressive Web Apps](https://www.rheinwerk-verlag.de/progressive-web-apps_4707/), German only ¯\\\_(ツ)\_/¯
 
 ## Setup
 
