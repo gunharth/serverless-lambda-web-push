@@ -22,7 +22,8 @@ org: gunharth
 
 provider:
   name: aws
-  runtime: nodejs10.x
+  runtime: nodejs12.x
+  lambdaHashingVersion: 20201221
 
 # you can overwrite defaults here
   stage: dev
